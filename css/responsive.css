@@ -1,0 +1,268 @@
+/* For Google Chrome (125% zoom level) */
+@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+screen and (min-resolution: 120dpi) {}
+
+@media (max-width: 1199px) {
+    div#navbarNav {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .text-img:after {
+    bottom: 0;
+    top: auto;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 4px;
+}
+
+.text-img {
+    padding-bottom: 10px;
+    padding-left: revert-layer;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+    .about-aurthor-content h4,
+    .about-book-content h4,
+    .amazone-book-content h4,
+    .sec-01-heading h4,
+    .book-trailer-heading h4,
+    .testimonial-heading h4,
+    .articles-heading h4,
+    .strategy-heading h4 {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .hero-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .author-bg {
+        margin: 0;
+    }
+
+    .author-bg {}
+
+    .author-bg .row {
+        gap: 20px 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bg-contact-form {
+        margin: 0;
+    }
+
+    .hero-img.img-box-content {
+        /* display: none; */
+    }
+
+    .text-img {
+        max-width: 260px;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+    }
+
+    .about-aurthor-content {
+        text-align: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-book-content {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .hero .row {
+        flex-direction: row-reverse;
+    }
+
+    .hero-section .row {
+        flex-direction: column-reverse;
+    }
+
+    .amazone-book-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .amazone-book-content h4:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .news_card_content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .thank-you-content {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .thank-you-content h1 {
+        font-size: 60px;
+        color: white;
+        font-family: var(--font-700);
+    }
+
+    img.dragon-img.animate-up {
+        display: none;
+    }
+
+    img.book-daragon.animate-up {
+        display: none;
+    }
+
+    .blog-main {
+        flex-direction: column;
+    }
+
+    section#home .row {
+        flex-direction: row-reverse;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .about-heading h2:before {
+        content: none;
+    }
+
+    .about-heading h2:after {
+        content: none;
+    }
+
+    .sec-01-heading {
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    .books-box img {
+        width: 100%;
+    }
+
+    .sec-five .sec-five-inner .sec-five-card {
+        flex: 0 0 320px;
+    }
+
+    .sec-five .sec-five-inner {
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    header.sticky {
+        transform: translateY(-0px);
+    }
+
+    .review-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec-five .sec-five-inner .sec-five-card {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .about-aurthor-content h4,
+    .about-book-content h4,
+    .amazone-book-content h4,
+    .sec-01-heading h4,
+    .book-trailer-heading h4,
+    .testimonial-heading h4,
+    .articles-heading h4,
+    .strategy-heading h4 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .about-aurthor-content h4,
+    .about-book-content h4,
+    .amazone-book-content h4,
+    .sec-01-heading h4,
+    .book-trailer-heading h4,
+    .testimonial-heading h4,
+    .articles-heading h4,
+    .strategy-heading h4 {
+        font-size: 28px;
+    }
+
+    .about-aurthor-content {
+        margin-top: 20px;
+    }
+
+    .strategy-cards-main {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    ul.footer-link li {
+        margin-top: 25px;
+    }
+
+    .footer-top {
+        display: block;
+    }
+
+    ul.footer-link {
+        display: block;
+    }
+
+    .feather-img {
+        display: none;
+    }
+    .author-book-tagline span:before{
+    display: none;
+}
+.author-book-tagline span:after{
+    display: none;
+}
+.about-book {
+    padding-top: 0;
+}
+.footer-middle-content-main {
+    display: block !important;
+}
+}
+
+@media (max-width: 340px) {
+
+.offcanvas-header img {
+    width: 140px;
+}
+a.btn.btn-theme {
+    font-size: 14px;
+}
+
+}
